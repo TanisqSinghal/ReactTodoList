@@ -1,12 +1,48 @@
-# React + Vite
+# 📝 React Todo List
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple yet functional Todo List application built with React. This app allows users to manage their daily tasks with features like adding, deleting, marking tasks as done, and converting them to uppercase for emphasis.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✅ Add new tasks
+- 🗑️ Delete individual tasks
+- ✍️ Mark tasks as **Done** (with strikethrough)
+- 🔠 Convert individual tasks or all tasks to **uppercase**
 
-## Expanding the ESLint configuration
+## 🧠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React (with Hooks)
+- UUID (for unique task IDs)
+- CSS for styling
+
+
+## 🔧 Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/react-todolist.git
+   cd react-todolist
+2. **Install dependencies**
+    ```bash
+        npm install
+    ```
+3. **Just start server**
+
+## Usage
+Type a task into the input field and click Add.
+
+Use Delete to remove a task.
+
+Click UpperCase to transform one task's text to uppercase.
+
+Click UpperCase All to transform all task texts.
+
+Click Mark As Done to strike through a completed task.
+
+## 🛠️ Future Improvements
+Edit existing tasks
+
+Add due dates and priorities
+
+Store tasks in local storage or connect to a backend
+
